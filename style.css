@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    
+  }
+  .body{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    
+  }
+  
+  .can{
+  
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .box{
+    font-size: 10vmin;
+    background-color:coral;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    color: brown;
+  }
+  
+  .name{
+    text-align: center;
+    font-size: 5vmin;
+    margin: 50px;
+    color:gray;
+  }
+  
+  .Restart{
+    text-align: center;
+    font-size: 2rem;
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .Restart-butten{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hide{
+    display: none;
+  }
+  .winner{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+  
+  }
